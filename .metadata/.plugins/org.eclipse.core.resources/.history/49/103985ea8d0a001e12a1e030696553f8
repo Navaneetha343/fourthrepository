@@ -1,0 +1,34 @@
+
+public class CallingMeethods {
+	int i;
+	static String name;
+public static void run() {
+	System.out.println(name);
+
+	}
+public void disply() {
+	System.out.println(i);
+	
+}public void disply(int k, int l) {
+	System.out.println(k+l);
+	
+}
+public static void main(String[] args) {
+	int j=2;
+	name = "navaneetha";
+	
+	CallingMeethods rfs1= new CallingMeethods();
+	rfs1.i=20;
+	
+	CallingMeethods rfs2= new CallingMeethods();
+	
+	CallingMeethods rfs3= new CallingMeethods();
+	rfs3.i=1;
+	 run();
+	 rfs3.disply();
+	 System.out.println(j);
+	 rfs2.disply(2,1);
+	
+}
+}
+  

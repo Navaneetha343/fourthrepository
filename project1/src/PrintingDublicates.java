@@ -1,0 +1,19 @@
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+public class PrintingDublicates {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String str= "FindingTheDublicateCharacters";
+		str.chars().mapToObj(i->(char) i).distinct().forEach(j->System.out.println(j));
+		str.chars().mapToObj(i->(char)i).collect(Collectors.groupingBy(j->j,Collectors.counting())).forEach((characters,numbers)->System.out.println(characters +"::"+ numbers ));
+		
+		
+	}
+
+	
+}

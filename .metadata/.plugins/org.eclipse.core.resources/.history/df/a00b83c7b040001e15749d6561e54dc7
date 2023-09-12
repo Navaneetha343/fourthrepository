@@ -1,0 +1,19 @@
+package com.java8;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.Optional;
+
+public class Task2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] arr1= {1,-5,3,14,-2,17};
+		List<int[]> arr2= Arrays.asList(arr1);
+		Optional<int[]> secondMax =arr2.stream().sorted().skip(1).findFirst();
+		System.out.println(secondMax);
+
+	}
+
+	
+}

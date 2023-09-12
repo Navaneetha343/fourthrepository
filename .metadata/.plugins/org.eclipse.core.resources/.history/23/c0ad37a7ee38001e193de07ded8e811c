@@ -1,0 +1,19 @@
+package collections;
+
+public class Cloning implements Cloneable {
+         //int i=10;
+         //int j=20;
+	   int j;
+	public static void main(String[] args) throws CloneNotSupportedException {
+		// TODO Auto-generated method stub
+      Cloning a1 = new Cloning();
+   
+      a1.j=10;
+      Object object = a1.clone();
+      Cloning a2 = (Cloning)object; 
+      
+      System.out.println(a2.j);
+	}
+	
+
+}

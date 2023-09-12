@@ -1,0 +1,17 @@
+package callingMethods;
+
+public class ArreyLength {
+	int size;
+
+	public static void main(String[] args) {
+		ArreyLength add= new ArreyLength();
+		         // add.length();
+		          System.out.print("The length of the given array = " + add.size );
+	}
+
+	public void length() {
+
+		int arr[] = { 10, 20, 30, 40, 50 };
+                size=(arr.length);
+	}
+}

@@ -1,0 +1,26 @@
+package mappingFunctions;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.*;
+
+public class MappingFunctionDemo5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List<String> names= Arrays.asList("Red","Red","White","Black","Blue");
+		//names.stream().filter(n->n.startsWith("B")).forEach(System.out::println);
+		//allMatch,distinct,anymatch,limit,skip
+		//boolean name = names.stream().allMatch(n->n.contains("e"));
+		//System.out.println(name);
+		
+		//names.stream().distinct().forEach(System.out::println);
+		//boolean name = names.stream().anyMatch(n->n.contains("e"));
+		//System.out.println(name);
+		//names.stream().limit(2).forEach(System.out::println);
+		names.stream().skip(3).forEach(System.out::println);
+		
+	}
+
+}

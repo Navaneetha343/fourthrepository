@@ -1,0 +1,16 @@
+package collections;
+
+public class ShallowCloning implements Cloneable  {
+	
+
+	public static void main(String[] args) throws CloneNotSupportedException {
+		// TODO Auto-generated method stub
+		Engine e= new Engine(20);
+           Car1 c1= new Car1(e, 0);
+           System.out.println(e);
+           Object clone = c1.clone();
+           Car1  c2= (Car1)clone;
+           
+	}
+
+}

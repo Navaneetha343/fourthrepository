@@ -1,0 +1,10 @@
+package collections;
+
+public class Engine {
+      Engine e;
+	public Engine(int i) {
+		this.e=e;
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.java8;
+
+public class Optional1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      Customer cr = new Customer(11, "navaneetha", "ellitamnavaneetha@gfmail.com");
+      String emailId= Customer.getEmail();
+       System.out.println(emailId);
+	}
+
+}

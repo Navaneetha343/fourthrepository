@@ -1,0 +1,32 @@
+package mapsDemo;
+import java.util.*;
+public class CloningOFmap {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Creating an object for class Map
+        Map<Integer, String> hash_Map
+            = new HashMap<Integer, String>();
+  
+        // putting elements into the map
+        hash_Map.put(1, "First");
+        hash_Map.put(2, "Second");
+        hash_Map.put(3, "Third");
+  
+        // Creating a new object for
+        // class Map to clone a map
+        Map<Integer, String> new_map
+            = new HashMap<Integer, String>();
+  
+        // using iterator
+        for (Map.Entry<Integer, String> entry : hash_Map.entrySet()) {
+            new_map.put(entry.getKey(),
+                        entry.getValue());
+        }
+  
+        System.out.println(new_map);
+    }
+
+	}
+
+

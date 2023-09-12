@@ -1,0 +1,12 @@
+package package1;
+import java.util.Arreys;
+public class AddElement {
+public static void main(String[] args) {
+	
+	int[] arr= {1,2,2,3,4,5};
+	int[] temparr=new int[arr.length+1];
+	temparr=arr;
+	int add =6;
+	temparr[temparr.length-1]= add;
+System.out.println( Arreys.toString(temparr));}}
+

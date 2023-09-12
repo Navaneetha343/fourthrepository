@@ -1,0 +1,22 @@
+
+package com.java8;
+import java.util.*;
+
+public class ApiDemo3 {
+
+	public static void main(String[] args) {
+		List< Integer> str= new LinkedList<>();
+		   str.add(19);
+		   str.add(22);
+		   str.add(39);
+		   str.add(9);
+		   str.stream().filter(i->i>10 & i<15).forEach(i->System.out.println(i));
+
+	
+	
+	
+	
+	}
+	
+}
+

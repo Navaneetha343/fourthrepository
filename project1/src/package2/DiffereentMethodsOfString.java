@@ -1,0 +1,40 @@
+package package2;
+
+public class DiffereentMethodsOfString {
+	
+	void addition() {
+		 String name =" nava ";
+		 
+		 System.out.println(name);
+		 String va = "neetha";
+		System.out.println(name.replace(name, va));
+		System.out.println(name.concat( va));
+		}
+	public static void main(String[] args) {
+		String str= " Navaneetha and My team " ;
+		int sum=add(2,4);
+		String str2 =add1(" Navaneetha and My team ");
+		System.out.println(sum);
+		System.out.println(str.charAt(10));
+		System.out.println(str.trim());
+		System.out.println(str.split(""));
+		System.out.println("name in small letters " +str.toLowerCase());
+		System.out.println("name in capital letters " + str.toUpperCase());
+		System.out.println("length of String "  + str.length());
+		System.out.println(str2.equals(str));
+	DiffereentMethodsOfString name=new DiffereentMethodsOfString();
+		         name.addition();
+	
+	}
+	
+		public static int add(int a, int b) {
+		return a + b;
+		}public static String add1(String str2) {
+			System.out.println(str2);
+			System.out.println(str2.substring(5, 11));
+			
+			return str2;
+			
+			
+		}
+	}

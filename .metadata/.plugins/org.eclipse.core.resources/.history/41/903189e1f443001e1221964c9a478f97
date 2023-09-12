@@ -1,0 +1,15 @@
+package com.java8;
+import java.util.Date;
+import java.text.SimpleDateFormat;
+public class DadtDemo1 {
+ public static void main(String[] args) {
+	 Date d1= new Date();
+	 System.out.println(d1);
+	 //Converting date obj formmat to string object format
+	 SimpleDateFormat sdf= new SimpleDateFormat("MM/dd/YYYY");
+	 String changedData= sdf.format(d1);
+	 System.out.println(changedData);
+	 
+ 
+ }
+}

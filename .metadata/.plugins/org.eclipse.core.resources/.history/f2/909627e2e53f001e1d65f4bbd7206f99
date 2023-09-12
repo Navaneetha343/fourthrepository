@@ -1,0 +1,4 @@
+
+public class BillCollector {
+ Payment p= new DebitCard();
+}

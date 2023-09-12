@@ -1,0 +1,9 @@
+package springFrameWork;
+
+public class Test {
+public static void main(String[] args) {
+	Payment p= new DebitCard();
+	 String result = p.payment();
+	 System.out.println(result);
+}
+}

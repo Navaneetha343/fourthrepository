@@ -1,0 +1,25 @@
+package callingMethods;
+
+public class ReverseAString {
+	String str;
+	String reverse;
+	String result;
+	public static void main(String[] args) {
+		//String str ;
+		 ReverseAString result = new ReverseAString();
+		 result.str="Navaneetha";
+		 System.out.println(result);
+			}
+
+	public String ReverseAString() {
+	
+		
+	for(int i= result.str.length()-1;i>=0;i--) 
+		reverse= result.str+str.charAt(i);
+		
+		return result;
+	}
+		
+	}
+
+

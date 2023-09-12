@@ -1,0 +1,28 @@
+package collections;
+import java.util.LinkedList;
+import java.util.ListIterator;
+import java.util.ListItertor;
+public class ListIteraator {
+	
+	public static void main (String[] args) {
+     LinkedList <String> I= new 	LinkedList<>();				
+            I.add("1");
+            I.add("3c");         
+  
+              I.add("2");
+              System.out.println(I);
+              ListIterator<String> itr= I.listIterator();
+              while(itr.hasPrevious()) {
+            	  
+            	  System.out.println(""+itr.previous());
+            		  
+            		 // itr.remove();
+            		 // itr.hasPrevious();
+            	  }
+             // }System.out.println(I);
+            	  
+	
+	
+	
+	
+	} }
